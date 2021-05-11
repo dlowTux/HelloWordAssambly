@@ -7,7 +7,7 @@ section .data
     mensaje3_lenth equ $ -mensaje3
 
     section .bss
-        nombre resb 4
+        nombre db 4
         edad resb 2
         year resb 4
 
